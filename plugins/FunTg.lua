@@ -14,7 +14,7 @@ local triggers = {
   '^###cb:/(em)',
   '^###cb:/(sp)',
   '^###cb:/(Amin)',
-  '^###cb:/(Mammad)',
+  '^###cb:/(mmd)',
   '^###cb:/(dastanak)',
   '^###cb:/(redastanak)',
   '^###cb:/(chistan)',
@@ -444,10 +444,10 @@ local function mehdi()
        local keyboard = {}
           keyboard.inline_keyboard = {
 		    {
-			  {text = "ارسال پیام", url = "https://t.me/Sabege"},
+			  {text = "ارسال پیام", url = "https://t.me/roo_bite_bezi_lei"},
 			},
 			{
-			  {text = "ریپورتم", url = "https://t.me/Awmin_Pvbot"},
+			  {text = "ریپورتم", url = "https://t.me/roo_bite_bezi_lei"},
 			},
 			{
 			  {text = "کانال", url = "https://t.me/ShaxUnited"},
@@ -738,7 +738,7 @@ end
          local keyboard = AmirH()
           api.editMessageText(msg.chat.id, msg.message_id, AHossein, keyboard, true)
         end
-        if matches[1] == 'Mmd' then
+        if matches[1] == 'mmd' then
          local keyboard = mehdi()
 		 local MEHDI = 'نام : ممد\nبا استفاده از اینلاین های زیر میتوانید  با ممد در ارتباط باشید'
         api.editMessageText(msg.chat.id, msg.message_id, MEHDI, keyboard, true)
