@@ -386,10 +386,10 @@ local function sp()
                 local keyboard = {}
           keyboard.inline_keyboard = {
 		    {
-			  {text = "Mr.AmirHossein", callback_data = "/Amir"}
+			  {text = "Amin", callback_data = "/Amin"}
 		    },
 			{
-			  {text = "Mehdi", callback_data = "/mehdi"}
+			  {text = "Mammad", callback_data = "/mmd"}
 			},
 --  		{
 --			  {text = "ارتباط مستقیم", callback_data = "/chat"}
@@ -414,7 +414,7 @@ local function about()
               {text = "کانال ربات", url = "https://t.me/ShaxUnited"},{text = "کانال اخبار ربات", url = "https://t.me/ShaxUnited"}
             },
             {
-              {text = "ربات مترجم ما",  url = "https://t.me/TranslateProBot"},{text = "اسپانسر تیم", url = "https://t.me/StoreVps",}
+              {text = "ربات مترجم ما",  url = "https://t.me/TranslateProBot"},{text = "اسپانسر تیم", url = "https://t.me/AkhtarTop",}
             },
             {
               {text = "بازگشت🔙", callback_data = "/kb"},
